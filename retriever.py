@@ -18,7 +18,7 @@ from langchain_teddynote import logging
 import pickle
 
 
-def create_retriever(file_path):
+def create_retriever():
     # MultiVector Retriever 로드
     model_name = "BAAI/bge-m3"
     model_kwargs = {"device": "cpu"}
